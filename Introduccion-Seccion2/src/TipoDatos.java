@@ -19,6 +19,32 @@ public class TipoDatos {
         double tipoDouble = 3.122331; /*soporta hasta 64 bit*/
         System.out.println("tipoDouble = " + tipoDouble);
 
+        /*TIPO DE DATO PRIMITIVO*/
+        //CARACTER
+        char tipoChar = 'A' ; /*es unicode solo almacena un valor*/
+        System.out.println("tipoChar = " + tipoChar);
+        tipoChar = 65; /*al ser unicode este 65 lo tomara como valor del codigo asscci*/
+        System.out.println("tipoChar  unicode= " + tipoChar); /*es decir imprime a*/
+
+        //tipo boolean --> solo puede tener 2 valores verdadero y falso
+        boolean tipoBoolean =true;
+        System.out.println("tipoBoolean valor true = " + tipoBoolean);
+        tipoBoolean = false;
+        System.out.println("tipoBoolean valor false = " + tipoBoolean);
+
+
+        /*valores por defecto es decir que valores tienen las variables por defecto*/
+        /*tipo de datos eNTERO ---> su valor es cero*/
+        /*PUNTO FLOTANTE ---> su valor por defecto 0.0*/
+        /*TIPO DE DATO PRIMITIVO ---> su valor por defecto es  \u0000 porq indica que es unicode*/
+        //tipo boolean --> por defecto es false
+        //Tipo string --> su valor por defecto es null  ausencia de referencia o valor
+
+
+
+        
+
+
 
 
     }
